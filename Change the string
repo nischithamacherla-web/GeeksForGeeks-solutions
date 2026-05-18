@@ -1,0 +1,6 @@
+class Solution:
+    def modify(self, s):
+        if 'A' <= s[0] <= 'Z':
+            return s.upper()
+        else:
+            return s.lower()
